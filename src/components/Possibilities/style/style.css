@@ -1,0 +1,102 @@
+/* line 3, style.scss */
+.possibilities {
+  min-height: 1175px;
+  /* max-width: 1536px; */
+  padding: 82px 0 0 152px;
+  background: #f3f6ef;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  /* justify-content: center; */
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  overflow: hidden;
+}
+
+/* line 17, style.scss */
+.possibilities * {
+  z-index: 2;
+}
+
+/* line 21, style.scss */
+.possibilities__title {
+  color: var(--Ed-Space, #2f2a37);
+  font-family: Avenir;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 115%;
+  /* 46px */
+  margin: 0 0 23px 0;
+}
+
+/* line 32, style.scss */
+.possibilities__desc {
+  color: var(--Ed-Space, #6e6c72);
+  text-align: center;
+  /* Text */
+  font-family: Avenir;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+  /* 24px */
+  margin: 0;
+  /* width: 776px; */
+}
+
+/* line 47, style.scss */
+.possibilities__card-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: auto;
+  /* max-width: calc(388px*3 + 33px*2); */
+  row-gap: 31px;
+  -webkit-column-gap: 27px;
+          column-gap: 27px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 84px 0 83px 0;
+}
+
+/* line 57, style.scss */
+.possibilities__circle-purple {
+  position: absolute;
+  z-index: 1;
+  top: 173px;
+  right: calc(-1251px + 696px);
+  width: 1251px;
+  height: 1210px;
+  border-radius: 1251px;
+  background: #9e00ff;
+  -webkit-filter: blur(182.5px);
+          filter: blur(182.5px);
+}
+
+/* line 72, style.scss */
+.possibilities__circle-lightblue {
+  position: absolute;
+  z-index: 1;
+  top: calc(-1021px + 680px);
+  left: -427px;
+  width: 1056px;
+  height: 1021px;
+  border-radius: 1056px;
+  background: var(--Accent, #6bffca);
+  -webkit-filter: blur(206px);
+          filter: blur(206px);
+}
+
+/* line 86, style.scss */
+.possibilities__button-try {
+  margin-bottom: 88px;
+}
+
+/*# sourceMappingURL=style.css.map */

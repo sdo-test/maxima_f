@@ -1,0 +1,84 @@
+/* line 1, style.scss */
+.weather-card {
+  padding: 10px 50px;
+  background-color: cadetblue;
+  border: 2px solid blueviolet;
+  border-radius: 50px;
+  width: 930px;
+  height: 250px;
+  cursor: pointer;
+}
+/* line 10, style.scss */
+.weather-card .weather-card__name {
+  font-size: 40px;
+  text-align: center;
+  margin: 0 0 20px 20px;
+}
+/* line 16, style.scss */
+.weather-card .weather-card__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 40px;
+  position: relative;
+  height: 150px;
+}
+/* line 22, style.scss */
+.weather-card .weather-card__content .content__figure {
+  position: relative;
+  top: -46px;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  margin: 0;
+}
+/* line 28, style.scss */
+.weather-card .weather-card__content .content__figure .figure__img {
+  width: 180px;
+}
+/* line 32, style.scss */
+.weather-card .weather-card__content .content__figure .figure__desc {
+  font-size: 30px;
+  text-align: center;
+  max-width: 200px;
+  word-wrap: normal;
+  position: relative;
+  top: -45px;
+  font-style: italic;
+}
+/* line 43, style.scss */
+.weather-card .weather-card__content .content__stats {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 10px;
+}
+/* line 48, style.scss */
+.weather-card .weather-card__content .content__stats .stats__title {
+  font-size: 25px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+/* line 54, style.scss */
+.weather-card .weather-card__content .content__stats .stats__line {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 20px;
+}
+/* line 58, style.scss */
+.weather-card .weather-card__content .content__stats .stats__line .stats__desc {
+  width: 150px;
+  text-align: center;
+}
+/* line 62, style.scss */
+.weather-card .weather-card__content .content__stats .stats__line .stats__val {
+  width: 120px;
+  text-align: center;
+}
+
+/*# sourceMappingURL=style.css.map */

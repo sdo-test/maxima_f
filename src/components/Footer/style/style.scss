@@ -1,0 +1,25 @@
+@import "../../../utils/variables";
+
+.footer {
+    height: 74px;
+    background-color: $color-accent;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 153.88px 0 155px;
+}
+
+.footer__rights {
+    // font-family: Avenir;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: $color-primary;
+}
+
+.footer__socials {
+    display: flex;
+    gap: 30px;
+}

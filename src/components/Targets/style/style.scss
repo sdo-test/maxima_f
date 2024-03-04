@@ -1,0 +1,30 @@
+@import "../../../utils/variables";
+
+.targets {
+    padding: 79px 154px 84px 150px;
+    background: #242029;
+    position: relative;
+    z-index: 2;
+}
+
+.targets__title {
+    color: $color-bg;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 46px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 82px;
+}
+
+.targets__items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 217px;
+    margin-bottom: 105px;
+}
+
+.target__try {
+    display: flex;
+    justify-content: center;
+}

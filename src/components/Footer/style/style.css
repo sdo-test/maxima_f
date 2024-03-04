@@ -1,0 +1,35 @@
+/* line 3, style.scss */
+.footer {
+  height: 74px;
+  background-color: #6bffca;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0 153.88px 0 155px;
+}
+
+/* line 12, style.scss */
+.footer__rights {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #2f2a37;
+}
+
+/* line 22, style.scss */
+.footer__socials {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 30px;
+}
+
+/*# sourceMappingURL=style.css.map */

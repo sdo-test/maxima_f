@@ -1,0 +1,11 @@
+**/.git
+**/.svn
+**/.hg
+/node_modules
+**/*.min.css
+**/*.map
+**/*.css
+**/*.md
+*.css
+*.min.css
+*.css.map

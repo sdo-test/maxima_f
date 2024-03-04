@@ -1,0 +1,12 @@
+@import "../../../utils/variables";
+
+.weather-logout {
+    position: fixed;
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+    border: 2px dashed $color-secondary;
+    top: $height-header + 20px;
+    right: 20px;
+    text-transform: uppercase;
+}

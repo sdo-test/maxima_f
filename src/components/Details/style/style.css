@@ -1,0 +1,121 @@
+/* line 3, style.scss */
+.details {
+  position: relative;
+  z-index: 1;
+  background-image: url("../images/bg2_wo_title.png");
+  background-size: cover;
+  margin: -83px 0 0 calc(((1713px - 1536px) / 2) * (-1));
+  padding: calc((1850px - 1777px)) 0 0 calc((1713px - 1536px) / 2);
+  min-height: 1850px;
+}
+
+/* line 19, style.scss */
+.details__container {
+  position: relative;
+  z-index: 1;
+  padding: 99px 152px;
+  min-height: 1777px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+/* line 29, style.scss */
+.details__title, .details__title_main {
+  color: #f3f6ef;
+  font-family: Avenir;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 115%;
+}
+
+/* line 40, style.scss */
+.details__title_main {
+  text-align: center;
+  margin-bottom: 77px;
+}
+
+/* line 47, style.scss */
+.details__title_start {
+  margin-bottom: 15px;
+}
+
+/* line 51, style.scss */
+.details__title_1 {
+  margin-top: 49px;
+  font-size: 30px;
+  line-height: 120%;
+}
+
+/* line 57, style.scss */
+.details__title_2 {
+  margin-bottom: 55px;
+}
+
+/* line 61, style.scss */
+.details__title_3 {
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+/* line 70, style.scss */
+.details__title_colored {
+  color: #6bffca;
+}
+
+/* line 74, style.scss */
+.details__desc {
+  color: #f3f6ef;
+  text-align: left;
+  font-family: Avenir;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%;
+}
+
+/* line 85, style.scss */
+.details__desc_mini {
+  font-size: 14px;
+}
+
+/* line 89, style.scss */
+.details__button-try {
+  margin: 68px 0 89px 0;
+}
+
+/* line 93, style.scss */
+.details__for {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 46px;
+}
+
+/* line 99, style.scss */
+.details__suit {
+  position: absolute;
+  bottom: 124px;
+  right: 153px;
+}
+
+/* line 105, style.scss */
+.details__ball {
+  position: absolute;
+  left: 287.51px;
+  top: 17.36px;
+}
+
+/*# sourceMappingURL=style.css.map */

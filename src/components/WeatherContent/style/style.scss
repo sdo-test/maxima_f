@@ -1,0 +1,40 @@
+@import "../../../utils/variables";
+
+.weather-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .weather__title {
+        font-size: 30px;
+        color: $color-secondary;
+    }
+}
+
+.weather__cards {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 60px;
+}
+
+.weather-add {
+    display: flex;
+    gap: 10px;
+
+    .weather-add__input {
+        font-size: 25px;
+    }
+    .weather-add__btn {
+        padding: 10px;
+        font-size: 25px;
+        border-radius: 10px;
+    }
+}
+
+.weather__error {
+    margin-top: 60px;
+    font-size: 30px;
+    color: red;
+    align-self: center;
+}

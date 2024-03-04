@@ -1,0 +1,26 @@
+@import "../../../utils/variables";
+
+.forecast {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+    .forecast__title {
+        text-align: center;
+        font-size: 30px;
+        color: $color-secondary;
+        margin: 0;
+    }
+
+    .forecast__city {
+        text-align: center;
+        font-size: 35px;
+        margin: 0;
+    }
+
+    .forecast__content {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+}

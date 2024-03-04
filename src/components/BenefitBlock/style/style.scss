@@ -1,0 +1,34 @@
+@import "../../../utils/variables";
+
+.benefit-block {
+    height: 68px;
+    border-radius: 84px;
+    background: linear-gradient(
+        180deg,
+        #fff -13.5%,
+        rgba(243, 246, 239, 0) 187.91%
+    );
+    box-shadow: 0px 0px 21px 7px rgba(0, 0, 0, 0.34);
+    backdrop-filter: blur(5.5px);
+
+    padding: 0 15px 0 25px;
+
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+}
+
+.benefit-block__text {
+    color: $color-primary;
+    text-align: center;
+
+    /* Text */
+    font-family: Avenir;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%; /* 28.8px */
+
+    /* white-space: pre; */
+}

@@ -1,0 +1,47 @@
+/* line 3, style.scss */
+.target {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  width: -webkit-min-content;
+  width: -moz-min-content;
+  width: min-content;
+}
+
+/* line 9, style.scss */
+.target__text {
+  top: 2px;
+  left: calc(141.58px + 31.42px);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+/* line 16, style.scss */
+.target__title {
+  min-width: 315px;
+  max-width: 341px;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #f3f6ef;
+}
+
+/* line 27, style.scss */
+.target__desc {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #f3f6ef;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,46 @@
+/* line 3, style.scss */
+.input-div {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+}
+
+/* line 7, style.scss */
+.input {
+  width: 328px;
+  height: 17px;
+  color: #2f2a37;
+  font-size: 14px;
+  font-family: Avenir;
+  font-weight: 500;
+  line-height: 17px;
+  word-wrap: break-word;
+  margin-bottom: 14px;
+  border: none;
+  padding: 0;
+  background-color: transparent;
+}
+
+/* line 22, style.scss */
+.input::-webkit-input-placeholder {
+  color: #2f2a37;
+}
+.input:-ms-input-placeholder {
+  color: #2f2a37;
+}
+.input::-ms-input-placeholder {
+  color: #2f2a37;
+}
+.input::placeholder {
+  color: #2f2a37;
+}
+
+/* line 26, style.scss */
+.line {
+  width: 329.21px;
+  height: 1px;
+  border-radius: 30px;
+  background: #f3f6ef;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,32 @@
+@import "../../../utils/variables";
+
+.input-div {
+    width: max-content;
+}
+
+.input {
+    width: 328px;
+    height: 17px;
+    color: $color-primary;
+    font-size: 14px;
+    font-family: Avenir;
+    font-weight: 500;
+    line-height: 17px;
+    word-wrap: break-word;
+    margin-bottom: 14px;
+    border: none;
+    padding: 0;
+    background-color: transparent;
+}
+
+.input::placeholder {
+    color: $color-primary;
+}
+
+.line {
+    // box-sizing: content-box;
+    width: 329.21px;
+    height: 1px;
+    border-radius: 30px;
+    background: #f3f6ef;
+}

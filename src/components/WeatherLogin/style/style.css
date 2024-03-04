@@ -1,0 +1,40 @@
+/* line 3, style.scss */
+.weather-login {
+  padding: 15px;
+  border: 5px solid #6e6c72;
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 20px;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+}
+/* line 12, style.scss */
+.weather-login .weather-login__title {
+  font-size: 30px;
+}
+/* line 16, style.scss */
+.weather-login .weather-login__title_up {
+  text-transform: uppercase;
+}
+/* line 20, style.scss */
+.weather-login .weather-login__input {
+  font-size: 20px;
+}
+/* line 24, style.scss */
+.weather-login .weather-login__submit {
+  font-size: 20px;
+  padding: 10px;
+}
+/* line 29, style.scss */
+.weather-login .weather-login__link {
+  text-align: end;
+}
+
+/*# sourceMappingURL=style.css.map */

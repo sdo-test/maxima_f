@@ -1,0 +1,71 @@
+@import "../../../utils/variables";
+
+.introduction {
+    height: 833px;
+    padding: 126px 0 0 149px;
+    background: $color-bg;
+    position: relative;
+    overflow: hidden;
+}
+
+.introduction * {
+    z-index: 2;
+    position: relative;
+}
+
+.introduction__content {
+    text-align: left;
+}
+
+.content__title {
+    width: 434px;
+    // height: 310px;
+    // font-family: Avenir;
+    font-size: 54px;
+    font-weight: 800;
+    line-height: 62px;
+    letter-spacing: 0em;
+    color: $color-primary;
+    margin-bottom: 31px;
+}
+
+.content__desc {
+    width: 423px;
+    // height: 48px;
+    color: $color-secondary;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    margin-bottom: 55px;
+}
+
+.content__desc_aligned {
+    text-align: justify;
+}
+
+.introduction__img {
+    position: absolute;
+    left: 720px;
+    top: 296.24px;
+}
+
+.introduction__img_ext {
+    width: 300px;
+}
+
+.introduction__img_colored {
+    padding: 5px;
+    background-color: lightgray;
+}
+
+.introduction__circle {
+    position: absolute;
+    top: 77px;
+    right: -343px;
+    width: 821px;
+    height: 821px;
+    background: #6bffca;
+    filter: blur(120px);
+    z-index: 1;
+}

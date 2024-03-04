@@ -1,0 +1,40 @@
+/* line 3, style.scss */
+.contacts__menu {
+  margin-bottom: 60px;
+}
+
+/* line 7, style.scss */
+.menu__title {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #2f2a37;
+}
+
+/* line 18, style.scss */
+.menu__vars {
+  margin-top: 31px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 25px;
+}
+
+/* line 25, style.scss */
+.menu__var {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #2f2a37;
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,22 @@
+@import "../../../utils/variables";
+
+.suit__title {
+    color: $color-bg;
+
+    font-family: Avenir;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 115%;
+    // margin: 0;
+}
+
+.suit__title_2 {
+    margin-bottom: 55px;
+}
+
+.suit__for {
+    display: flex;
+    flex-direction: column;
+    gap: 46px;
+}

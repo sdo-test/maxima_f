@@ -1,0 +1,79 @@
+/* line 3, style.scss */
+.introduction {
+  height: 833px;
+  padding: 126px 0 0 149px;
+  background: #f3f6ef;
+  position: relative;
+  overflow: hidden;
+}
+
+/* line 11, style.scss */
+.introduction * {
+  z-index: 2;
+  position: relative;
+}
+
+/* line 16, style.scss */
+.introduction__content {
+  text-align: left;
+}
+
+/* line 20, style.scss */
+.content__title {
+  width: 434px;
+  font-size: 54px;
+  font-weight: 800;
+  line-height: 62px;
+  letter-spacing: 0em;
+  color: #2f2a37;
+  margin-bottom: 31px;
+}
+
+/* line 32, style.scss */
+.content__desc {
+  width: 423px;
+  color: #6e6c72;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  margin-bottom: 55px;
+}
+
+/* line 43, style.scss */
+.content__desc_aligned {
+  text-align: justify;
+}
+
+/* line 47, style.scss */
+.introduction__img {
+  position: absolute;
+  left: 720px;
+  top: 296.24px;
+}
+
+/* line 53, style.scss */
+.introduction__img_ext {
+  width: 300px;
+}
+
+/* line 57, style.scss */
+.introduction__img_colored {
+  padding: 5px;
+  background-color: lightgray;
+}
+
+/* line 62, style.scss */
+.introduction__circle {
+  position: absolute;
+  top: 77px;
+  right: -343px;
+  width: 821px;
+  height: 821px;
+  background: #6bffca;
+  -webkit-filter: blur(120px);
+          filter: blur(120px);
+  z-index: 1;
+}
+
+/*# sourceMappingURL=style.css.map */

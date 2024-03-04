@@ -1,0 +1,60 @@
+/* line 3, style.scss */
+.weather-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+/* line 8, style.scss */
+.weather-content .weather__title {
+  font-size: 30px;
+  color: #6e6c72;
+}
+
+/* line 14, style.scss */
+.weather__cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 10px;
+  margin-bottom: 60px;
+}
+
+/* line 21, style.scss */
+.weather-add {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 10px;
+}
+/* line 25, style.scss */
+.weather-add .weather-add__input {
+  font-size: 25px;
+}
+/* line 28, style.scss */
+.weather-add .weather-add__btn {
+  padding: 10px;
+  font-size: 25px;
+  border-radius: 10px;
+}
+
+/* line 35, style.scss */
+.weather__error {
+  margin-top: 60px;
+  font-size: 30px;
+  color: red;
+  -ms-flex-item-align: center;
+      align-self: center;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,40 @@
+.forecast-card {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    width: 200px;
+    padding: 5px;
+    border: 2px solid rgb(0, 255, 255);
+    border-radius: 5px;
+
+    .forecast-card__date {
+        text-align: center;
+        margin: 0;
+    }
+
+    .figure {
+        text-align: center;
+        // width: 100px;
+
+        .figure__img {
+            background-color: rgb(248, 192, 192);
+            border-radius: 50px;
+        }
+
+        .figure__desc {
+            word-wrap: normal;
+        }
+    }
+
+    .forecast__line {
+        display: flex;
+        // justify-content: flex-start;
+        // align-items: flex-start;
+
+        .line__desc {
+            width: 100px;
+            // align-self: flex-start;
+        }
+    }
+}

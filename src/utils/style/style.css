@@ -1,0 +1,32 @@
+/* line 3, style.scss */
+body {
+  margin: 0;
+  font-family: Avenir;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* line 10, style.scss */
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+/* line 15, style.scss */
+body * {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/* line 19, style.scss */
+button {
+  cursor: pointer;
+}
+
+/* line 23, style.scss */
+.anchor {
+  position: relative;
+  top: -110px;
+  visibility: hidden;
+}
+
+/*# sourceMappingURL=style.css.map */

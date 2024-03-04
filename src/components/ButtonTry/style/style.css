@@ -1,0 +1,42 @@
+/* line 3, style.scss */
+.button-try {
+  width: 245px;
+  height: 55px;
+  border-radius: 40px;
+  border: 3px solid var(--gradient, #6bffca);
+  background: var(--gradient, linear-gradient(92deg, #6bffca 13.34%, #00ff47 129.97%));
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #2f2a37;
+  -webkit-text-stroke-width: 3;
+  -webkit-text-stroke-color: #000;
+  font-family: Avenir;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%;
+  /* 16.8px */
+  text-transform: uppercase;
+  position: relative;
+  /* z-index: 20; */
+}
+
+/* line 32, style.scss */
+.button-try:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+/* line 36, style.scss */
+.button-try:disabled:hover {
+  cursor: not-allowed;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,37 @@
+/* line 3, style.scss */
+.benefit-block {
+  height: 68px;
+  border-radius: 84px;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(-13.5%, #fff), color-stop(187.91%, rgba(243, 246, 239, 0)));
+  background: linear-gradient(180deg, #fff -13.5%, rgba(243, 246, 239, 0) 187.91%);
+  -webkit-box-shadow: 0px 0px 21px 7px rgba(0, 0, 0, 0.34);
+          box-shadow: 0px 0px 21px 7px rgba(0, 0, 0, 0.34);
+  -webkit-backdrop-filter: blur(5.5px);
+          backdrop-filter: blur(5.5px);
+  padding: 0 15px 0 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 10px;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+}
+
+/* line 22, style.scss */
+.benefit-block__text {
+  color: #2f2a37;
+  text-align: center;
+  /* Text */
+  font-family: Avenir;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%;
+  /* 28.8px */
+  /* white-space: pre; */
+}
+
+/*# sourceMappingURL=style.css.map */

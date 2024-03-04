@@ -1,0 +1,41 @@
+/* line 3, style.scss */
+.targets {
+  padding: 79px 154px 84px 150px;
+  background: #242029;
+  position: relative;
+  z-index: 2;
+}
+
+/* line 10, style.scss */
+.targets__title {
+  color: #f3f6ef;
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 46px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-bottom: 82px;
+}
+
+/* line 20, style.scss */
+.targets__items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 217px;
+  margin-bottom: 105px;
+}
+
+/* line 27, style.scss */
+.target__try {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+/*# sourceMappingURL=style.css.map */

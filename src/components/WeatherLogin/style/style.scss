@@ -1,0 +1,32 @@
+@import "../../../utils/variables";
+
+.weather-login {
+    padding: 15px;
+    border: 5px solid $color-secondary;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: max-content;
+
+    .weather-login__title {
+        font-size: 30px;
+    }
+
+    .weather-login__title_up {
+        text-transform: uppercase;
+    }
+
+    .weather-login__input {
+        font-size: 20px;
+    }
+
+    .weather-login__submit {
+        font-size: 20px;
+        padding: 10px;
+    }
+
+    .weather-login__link {
+        text-align: end;
+    }
+}

@@ -1,0 +1,13 @@
+/* line 3, style.scss */
+.weather-logout {
+  position: fixed;
+  width: 80px;
+  height: 80px;
+  border-radius: 50px;
+  border: 2px dashed #6e6c72;
+  top: 130px;
+  right: 20px;
+  text-transform: uppercase;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,58 @@
+@import "../../../utils/variables";
+
+.card {
+    width: 388px;
+    height: 317px;
+    flex-shrink: 0;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 17px;
+    padding: 133px 34px 0 55px;
+
+    border-radius: 10px;
+    background: linear-gradient(
+        139deg,
+        #fff -21.71%,
+        rgba(243, 246, 239, 0) 94.44%
+    );
+    box-shadow: 2px 2px 8px 1px rgba(0, 0, 0, 0.04);
+    backdrop-filter: blur(5.5px);
+
+    position: relative;
+}
+
+.card:hover {
+    box-shadow:
+        2px 2px 8px 1px rgba(0, 0, 0, 0.04),
+        11px 6px 48px 4px #36ff9f;
+}
+
+.card__img {
+    position: absolute;
+    top: 48px;
+    left: 60px;
+}
+
+.card__title {
+    color: var(--Ed-Space, $color-primary);
+
+    /* Text */
+    font-family: Avenir;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%; /* 28.8px */
+    margin: 0;
+    margin-bottom: calc(21px - 17px);
+    max-width: 248px;
+}
+
+.card__desc {
+    color: var(--Ed-Space, $color-primary);
+    font-family: Avenir;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%; /* 16.8px */
+}
